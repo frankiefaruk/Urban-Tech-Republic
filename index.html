@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berlin’in Gelecek Vizyonu: Urban Tech Republic</title>
+    <!-- Add Prism CSS and Theme -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+    <style>
+        :root {
+            --bg-color-dark: #212121;
+            --text-color-dark: #dcdcdc;
+            --bg-color-light: #f9f9f9;
+            --text-color-light: #333;
+            --highlight-color: #ffa500;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1100px;
+            margin: 20px auto;
+            background-color: var(--bg-color-light);
+            color: var(--text-color-light);
+        }
+        header {
+            background-color: var(--bg-color-light);
+            text-align: center;
+            padding: 20px;
+            height: auto;
+            position: relative;
+            margin: 0 auto;
+            width: 100%;
+        }
+        header img {
+            height: 50px;
+            display: block;
+            margin: 0 auto;
+            transition: filter 0.3s ease;
+        }
+        header img:hover {
+            filter: brightness(1.5);
+        }
+        .header-button {
+            background-color: var(--bg-color-light);
+            color: var(--text-color-light);
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            display: block;
+            margin: 10px auto;
+            transition: color 0.3s ease;
+        }
+        .header-button:hover {
+            color: #777;
+        }
+        .theme-toggle {
+            position: absolute;
+            top: 20px;
+            right: 50px;
+            cursor: pointer;
+            background: none;
+            border: none;
+            font-size: 16px;
+            color: var(--text-color-light);
+        }
+        .divider {
+            width: 90%;
+            margin: 0 auto;
+            border-top: 1px solid #777;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        pre {
+            border-radius: 6px;
+            padding: 1em;
+            margin: 1em 0;
+            overflow: auto;
+            background-color: #f0f0f0;
+        }
+        code {
+            font-family: 'Consolas', 'Monaco', 'Andale Mono', monospace;
+            color: grey;
+        }
+        a {
+            color: var(--highlight-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #ffcc00;
+            text-decoration: underline;
+        }
+        a:visited {
+            color: #ff8c00;
+        }
+        .code-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        .copy-button {
+            background-color: var(--bg-color-light);
+            color: var(--text-color-light);
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+        .copy-button:hover {
+            color: #777;
+        }
+        .blog-content {
+            margin: 20px;
+        }
+
+        /* Add this media query below */
+        @media (max-width: 600px) {
+            .theme-toggle {
+                top: 10px;
+                right: 10px;
+                font-size: 14px;
+            }
+
+            header {
+                padding: 10px;
+            }
+
+            .header-button {
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <img id="logo" src="https://raw.githubusercontent.com/frankiefaruk/logo/refs/heads/main/frank_faruk_logo_grey.svg" alt="Frank Faruk Logo">
+    <button class="header-button" onclick="window.location.href='https://frankfaruksampling.site'">FRANK FARUK SAMPLING</button>
+    <hr class="divider">
+    <button class="header-button" onclick="window.location.href='https://www.creative-city-berlin.de/de/ccb-magazin/2024/10/30/tegel-urban-technologies-urban-tech-public/'">
+        <img id="code-icon" src="https://img.icons8.com/ios-filled/50/000000/code.png" alt="Code Icon" style="width: 24px; height: 24px; vertical-align: middle;">
+    </button>
+    <button class="theme-toggle" onclick="toggleTheme()">
+        <img id="theme-icon" src="https://img.icons8.com/ios-glyphs/30/000000/sun--v1.png" alt="Light Mode Icon" style="width: 20px; height: 20px; vertical-align: middle;">
+    </button>
+</header>
+
+<!-- Blog Content -->
+<div class="blog-content">
+    <h1>Berlin’in Gelecek Vizyonu: Urban Tech Republic</h1>
+    <p>Berlin, eski Tegel Havaalanı’nda geleceğin şehirlerine öncülük etmeyi hedefleyen dev bir projeye imza atıyor: Urban Tech Republic. Bu proje, eski bir havaalanı alanını dönüştürerek yenilikçi teknolojilerle donatılmış bir kentsel inovasyon merkezine dönüştürmeyi amaçlıyor. Peki, bu proje neden bu kadar özel? İşte Urban Tech Republic’in getireceği yenilikler ve neden bir dönüşüm sembolü haline geldiği...</p>
+
+    <h2>İnovasyon Merkezleri ile Geleceğe Açılan Kapı</h2>
+    <p>Urban Tech Republic’in kalbi, Tegel’in tarihi terminal binalarında yer alacak İnovasyon Merkezleri olacak. Burada, yenilikçi çözümler üreten startuplar ve köklü şirketler bir araya gelerek kentsel teknoloji alanında çığır açacak çalışmalara imza atacak. Ortak çalışma alanları, laboratuvarlar ve atölyeler sayesinde iş birliği ve inovasyon desteklenecek.</p>
+
+    <h2>Altı Ana Araştırma Alanı</h2>
+    <p>Bu projeyi diğerlerinden ayıran önemli bir faktör de kentsel gelişimi doğrudan etkileyecek altı ana araştırma alanına odaklanması. Urban Tech Republic, sürdürülebilir su ve enerji kaynakları, geri dönüşüm, bilgi ve iletişim teknolojileri, yeni yapı malzemeleri ve mobilite çözümleri gibi geleceğin en kritik konularında çalışmalar yürütmeyi planlıyor. Bu alanlarda hem özel şirketler hem de araştırma kurumları aktif olarak çalışacak.</p>
+
+    <h2>İklim Dayanıklılığı için Sünger Şehir Konsepti</h2>
+    <p>Berlin’in geleceğin şehirleri için sunduğu en yenilikçi çözümlerden biri, iklim krizine yanıt veren Sünger Şehir konsepti. Bu konseptte, yağmur sularını etkin bir şekilde yöneten kentsel tasarımlar uygulanacak. Bu sayede, su baskınları engellenirken şehir merkezlerinin serin kalması da sağlanacak. Urban Tech Republic, iklim dayanıklılığı konusunda bir laboratuvar gibi işlev görerek diğer şehirler için örnek bir model sunacak.</p>
+
+    <h2>Schumacher Mahallesi: Sosyal ve Ekolojik Sürdürülebilirlik</h2>
+    <p>Projenin sadece teknolojiye odaklandığını düşünüyorsanız yanılıyorsunuz! Urban Tech Republic’in bir parçası olarak hayata geçecek Schumacher Mahallesi, sosyal ve ekolojik sürdürülebilirliği öncelik alan bir konut projesi olacak. Bu alanda 5.000 yeni konut inşa edilecek ve öncelik uygun fiyatlı konut seçeneklerine verilecek. Berlin, bu mahalle ile sadece yenilikçi bir şehir değil, aynı zamanda herkes için yaşanabilir bir şehir olmayı hedefliyor.</p>
+
+    <h2>1.000’den Fazla Şirket için Dinamik Bir Ekosistem</h2>
+    <p>Urban Tech Republic, sadece teknolojik yenilikleri değil, topluluk katılımını da ön planda tutuyor. Bu dev proje tamamlandığında, 200 hektarlık alanda 1.000’den fazla şirketi ağırlayacak ve bilim insanları, girişimciler, iş dünyası ve topluluk arasında sıkı bir iş birliği ağı kurulacak. Berlin, bu proje ile dünyanın farklı yerlerinden yatırımcıları, araştırmacıları ve yenilikçi düşünen insanları bir araya getirmeyi amaçlıyor.</p>
+
+    <h2>Geleceğe Yatırım: Kamu ve Özel Sektör Finansmanı</h2>
+    <p>Projenin ilk aşamaları, eyalet, federal ve Avrupa Birliği fonları ile finanse ediliyor. Ancak ilerleyen yıllarda özel yatırımların da devreye girmesiyle Urban Tech Republic’in ekonomik olarak sürdürülebilir bir model oluşturması bekleniyor. 2040’lara kadar devam etmesi planlanan bu projede, şehirlerimizin nasıl daha akıllı, yeşil ve yaşanabilir hale getirilebileceğine dair yeni bir vizyon ortaya konulacak.</p>
+
+    <h2>Berlin’in Geleceğe Bıraktığı Miras</h2>
+    <p>Urban Tech Republic, yalnızca bir kentsel dönüşüm projesi değil, aynı zamanda dünyaya sunulan bir vizyon. Çevre dostu, sürdürülebilir ve ileri teknolojiyle donatılmış şehirlerin bir örneği olarak Berlin, bu proje ile şehirlerin geleceğine dair ilham verici bir model sunuyor. Urban Tech Republic, Berlin’in dünya sahnesindeki yenilikçi vizyonunu pekiştirirken, bu projeden alınacak derslerin diğer şehirlerde de uygulanması bekleniyor.</p>
+
+    <h2>Son Söz</h2>
+    <p>Urban Tech Republic, Berlin’in sadece teknolojik ve ekonomik anlamda değil, aynı zamanda sosyal ve çevresel sürdürülebilirlik açısından nasıl bir vizyon sunduğunu gösteriyor. Bu proje, geleceğin şehirlerinde herkesin yer bulabileceği, doğayla uyumlu ve inovasyon odaklı bir yaşam alanı yaratmayı hedefliyor.</p>
+</div>
+
+<!-- Footer Section -->
+<hr class="divider">
+<footer style="text-align: center; margin: 20px 0; color: var(--text-color-light); font-size: 14px;">
+    Design by ChatGPT / Claude.ai / Gemini and <a href="https://frankfaruksampling.site" target="_blank">Frank Faruk Sampling</a>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+<script>
+    function copyToClipboard(selector) {
+        const codeBlock = document.querySelector(selector);
+        const textArea = document.createElement('textarea');
+        textArea.value = codeBlock.textContent;
+        document.body.appendChild(textArea);
+        textArea.select();
+        try {
+            document.execCommand('copy');
+            alert('Code copied to clipboard!');
+        } catch (err) {
+            console.error('Failed to copy text', err);
+        }
+        document.body.removeChild(textArea);
+    }
+
+    function toggleTheme() {
+        const root = document.documentElement;
+        const themeToggle = document.querySelector('.theme-toggle');
+        const logo = document.getElementById('logo');
+        const codeIcon = document.getElementById('code-icon');
+        const themeIcon = document.getElementById('theme-icon');
+        const isLightMode = getComputedStyle(root).getPropertyValue('--bg-color-light').trim() === '#f9f9f9';
+
+        if (isLightMode) {
+            // Switch to dark mode
+            root.style.setProperty('--bg-color-light', '#212121');
+            root.style.setProperty('--text-color-light', '#dcdcdc');
+            themeIcon.src = 'https://img.icons8.com/ios-glyphs/30/dcdcdc/moon-symbol.png'; // Dark mode icon
+            themeIcon.alt = 'Dark Mode Icon';
+            logo.src = 'https://raw.githubusercontent.com/frankiefaruk/logo/refs/heads/main/frank_faruk_logo_white.svg';
+            codeIcon.src = 'https://img.icons8.com/ios-filled/50/dcdcdc/code.png';
+        } else {
+            // Switch to light mode
+            root.style.setProperty('--bg-color-light', '#f9f9f9');
+            root.style.setProperty('--text-color-light', '#333');
+            themeIcon.src = 'https://img.icons8.com/ios-glyphs/30/000000/sun--v1.png'; // Light mode icon
+            themeIcon.alt = 'Light Mode Icon';
+            logo.src = 'https://raw.githubusercontent.com/frankiefaruk/logo/refs/heads/main/frank_faruk_logo_grey.svg';
+            codeIcon.src = 'https://img.icons8.com/ios-filled/50/000000/code.png';
+        }
+    }
+</script>
+</body>
+</html>
